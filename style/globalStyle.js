@@ -40,7 +40,7 @@ const posttitleStyle = `md:text-[40px] md:leading-[56px] text-[32px] leading-[40
 
 const postauthordateDivStyle = `md:mb-8 mb-6 h-fit`;
 const postauthorDivStyle = `inline-block`;
-const postauthorImgStyle = `inline w-8 h-8 rounded-full object-cover object-center mr-2 border-2 border-activation overflow-hidden`;
+const postauthorImgStyle = `inline w-8 h-8 rounded-full object-cover object-center mr-2 border border-graylv2 overflow-hidden`;
 const postauthorStyle = `inline text-sm font-semibold text-black mr-2`;
 const postdateStyle = `inline-block text-graylv3 text-sm font-normal`;
 const postimgtitleStyle = `w-full max-h-[520px] object-cover object-center my-4 rounded-2xl mx-auto block max-w-full align-middle`;
@@ -54,7 +54,7 @@ const notebookdownloadButtonStyle = `download-button p-2 text-sm font-semibold t
 // bloglist 목록 스타일
 const bloglistFirstCardStyle = `lg:col-span-3 md:col-span-2 col-span-1 h-auto rounded overflow-hidden bg-white transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 flex md:flex-row flex-col flex-1 md:mb-[20px] cursor-pointer`;
 const bloglistFirstCardImgStyle = `w-full object-cover object-center rounded-2xl overflow-hidden md:h-auto h-[200px] md:w-[49%] lg:w-[52%] shrink-0 mr-8`;
-const bloglistFirstCardDescriptionStyle = `text-graylv4 text-base font-normal leading-snug md:max-h-40 md:line-clamp-[7] line-clamp-3 mb-3`;
+const bloglistFirstCardDescriptionStyle = `text-graylv4 text-base font-normal leading-snug md:max-h-40 md:line-clamp-[7] line-clamp-3 mb-3 md:h-[152px]`;
 
 const bloglistCardStyle = `lg:max-w-sm overflow-hidden bg-white transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 cursor-poitner col-span-1 w-auto`;
 const bloglistCardImgStyle = `w-full h-[200px] object-cover object-center rounded-2xl overflow-hidden`;
@@ -63,8 +63,8 @@ const bloglistCardBodyStyle = `py-4`;
 const bloglistCardTitleStyle = `font-bold text-2xl mb-3`;
 const bloglistCardCategoryStyle = `inline-block bg-activation text-primary md:text-sm font-medium mb-3 px-3 py-1.5 rounded-lg`;
 const bloglistCardDescriptionStyle = `text-graylv4 text-base font-normal leading-snug h-16 line-clamp-3 mb-3`;
-const bloglistCardAuthorDivStyle = `inline-block`;
-const bloglistCardAuthorImgStyle = `inline w-8 h-8 rounded-full object-cover object-center mr-2 border-2 border-activation overflow-hidden`;
+const bloglistCardAuthorDivStyle = `inline-block mt-full`;
+const bloglistCardAuthorImgStyle = `inline w-8 h-8 rounded-full object-cover object-center mr-2 border border-graylv2 overflow-hidden`;
 const bloglistCardAuthorStyle = `inline text-sm font-semibold text-black mr-2`;
 const bloglistCardDateStyle = `text-graylv3 text-sm inline-block font-normal`;
 
