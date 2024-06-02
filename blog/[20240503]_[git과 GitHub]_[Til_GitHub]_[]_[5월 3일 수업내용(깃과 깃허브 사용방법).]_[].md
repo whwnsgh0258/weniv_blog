@@ -53,22 +53,22 @@ git push: 원격 저장소에 코드를 올립니다.
         - 해결 및 과제수행
             1.  GitHub에서 hello라는 repository 만들기
             2. git 푸시를 위한 사용자 정보 설정(이때 이메일 설정 이상하게 하면 푸시 안되니까 똑바로 설정)
-            
+
             ```bash
             $ git config --global user.name "깃허브 이름"
             $ git config --global user.email 깃허브이메일@이메일.com
             $ git gonfig --list
             ```
-            
+
             1. 사용자 정보 확인
-            
+
             ```bash
             $ git config --get user.name
             $ git config --get user.email
             ```
-            
+
             1. hello 폴더열고 a 폴더 생성(빈폴더는 푸시가 안되기 때문에 빈파일 하나 만들어줘야함)
-            
+
             ```bash
             $ cd hello
             $ mkdir a
@@ -76,9 +76,9 @@ git push: 원격 저장소에 코드를 올립니다.
             $ touch 빈파일.txt
             $ cd ..
             ```
-            
+
             1. 리드미 파일 수정
-            
+
             ```bash
             $ vi readme.md echo
             
@@ -87,19 +87,19 @@ git push: 원격 저장소에 코드를 올립니다.
             #hello
             :wq!
             ```
-            
+
             1. a폴더, 수정된 [readme.md](http://readme.md) 푸시하기
-            
+
             ```bash
             $ git add .
             $ git commit -m ':pencil:리드미'
             $ git push
             ```
-            
-            결과
-            
-            ![스크린샷 2024-05-03 오후 5.07.57.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8f11927-b70c-4524-9227-a3efac08e7aa/ebf30f31-fb38-4b93-b0d3-3df34461b5e0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-05-03_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_5.07.57.png)
-            
+
+          결과
+
+          ![깃헙예시.png](/img/Til/5:3/깃헙예시.png)
+
 
 ## 피드백 및 실습
 

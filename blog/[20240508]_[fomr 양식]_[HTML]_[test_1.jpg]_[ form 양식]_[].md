@@ -17,28 +17,28 @@
 - POST 방식의 HTTP 요청에 의한 데이터는 쿼리 문자열과는 별도로 전송 합니다.
 - 데이터의 길이 제한이 없고, 브라우저에 캐시 되거나 히스토리에 남지 않기 때문에 GET방식 보다 보안성이 높습니다.
 - 주로 데이터를 생성(회원가입, 게시글 생성) 하거나 로그인과 같은 민감한 정보를 다룰 때 사용 됩니다.
-- `**enctype**` 속성 (이부분은 잘 모르겠음*)
+- `enctype` 속성 (이부분은 잘 모르겠음*)
     - method 특성이 post인 경우 enctype은 양식 제출 시 데이터의 MIME 타입을 나타냅니다.
 
         <aside>
-        💡 **MIME 타입** 
+        💡 <strong>MIME 타입</strong> 
         - 클라이언트에 전송된 문서의 다양성을 알려주기 위한 메커니즘.
         - 브라우저들은 리소스를 내려받았을 때 해야 할 기본 동작이 무엇인지 결정하기 위해 사용
 
         </aside>
 
-    - `**application/x-www-form-urlencoded**`: 기본값
-    - `**multipart/form-data**`: `<input **type="file"**>`이 존재하는 경우 사용
+    - `application/x-www-form-urlencoded`: 기본값
+    - `multipart/form-data`: `<input type="file">`이 존재하는 경우 사용
 
         ```html
         <form 
         	action="http://localhost:8000/" 
         	method="post" 
-        	**enctype="multipart/form-data"**
+        	enctype="multipart/form-data"
         >
           <input type="text" name="myTextField">
           <input type="checkbox" name="myCheckBox">Check</input>
-          **<input type="file" name="myFile">**
+          <input type="file" name="myFile">
           <button>Send the file</button>
         </form>
         ```
@@ -50,7 +50,7 @@
 
 ex)
 
-![스크린샷 2024-05-08 오후 10.34.35.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8f11927-b70c-4524-9227-a3efac08e7aa/346bb362-45c7-4a04-a730-bb5663aabaa0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-05-08_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_10.34.35.png)
+![스크린샷 2024-05-08 오후 10.34.35.png](/img/Til/5:8/스크린샷 2024-05-08 오후 10.34.35.png)
 
 - 양식 데이터를 action URL과 ?를 뒤에 붙혀서 전송 합니다.
 
@@ -100,13 +100,13 @@ ex) `https://example.com?name=홍길동&age=20`
 
 - 실행화면
 
-![스크린샷 2024-05-08 오후 10.46.50.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8f11927-b70c-4524-9227-a3efac08e7aa/7ac7f31b-bf42-42e0-ae99-061405e5eef7/2cab1932-07d6-4f8e-854c-e9e66c75e29b.png)
+![스크린샷 2024-05-08 오후 10.46.50.png](/img/Til/5:8/0508실습내용.png)
 
 - 회원가입 후 URL
   name → email, pwd, gender, skill
   value → 123%40123, 123, male, html (%40은 인코딩된 ‘@’)
 
-![스크린샷 2024-05-08 오후 10.53.41.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8f11927-b70c-4524-9227-a3efac08e7aa/27981845-d35a-4432-8327-cb451fbaa8fb/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-05-08_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_10.53.41.png)
+![스크린샷 2024-05-08 오후 10.53.41.png](/img/Til/5:8/url.png)
 
 ## `action` 속성 (요청을 처리할 주소)
 
@@ -146,9 +146,8 @@ ex) `https://example.com?name=홍길동&age=20`
 ```
 
 <aside>
-💡 label 안에 제목요소를 배치하면 안됩니다.
+💡 <strong>label 안에 제목요소를 배치하면 안됩니다.</strong> 
 - 만약 필요한 경우 `fieldset` `legend` 사용하기!!
-
 </aside>
 
 <aside>
@@ -168,14 +167,14 @@ ex) `https://example.com?name=홍길동&age=20`
 
 ### button의 타입
 
-- `**button**`: 기본행동이 없습니다. 클릭 했을 때 아무것도 하지 않고 JavaScript와 연결하여 사용 합니다.
-- `**submit` :** 서버로 양식 데이터를 제출 합니다.
+- `button`: 기본행동이 없습니다. 클릭 했을 때 아무것도 하지 않고 JavaScript와 연결하여 사용 합니다.
+- `submit`: 서버로 양식 데이터를 제출 합니다.
   `<button>___</button>` button 태그에는 기본적으로 submit이 내장되어 있습니다.
-- `**reset`** : 초기값으로 되돌립니다.
+- `reset` : 초기값으로 되돌립니다.
 
 ### `<a>` vs`<button>` 의 차이점
 
-<a> 태그 특징
+<a> 태그 특징</a>
 
 1. 마우스 우클릭을 하면, 링크를 새 탭에서 열거나, 링크를 저장하는 등의 추가 옵션이 있는 메뉴가 표시 됩니다.
 2. cmd + click과 같은 특수한 기능이 있습니다.
@@ -231,12 +230,9 @@ JS를 이용하여 동작 추가
 | range | 슬라이드 바 형태 |
 | hidden | 보이지 않지만 값은 서버로 전송하는 컨트롤 |
 
-<aside>
 💡 email, tel, url, number 같은 경우 text로 값을 받아도 되지 않을까?
 - type을 통해 어떤 데이터를 받는지 예측 할 수 있으므로 코드의 가독성 향상이 됩니다.
 - 모바일에서 type에 따라 키패드 UI가 조금씩 달라지기 때문에 적절한 input type은 사용자 경험 개선에도 도움이 됩니다.
-
-</aside>
 
 ---
 
