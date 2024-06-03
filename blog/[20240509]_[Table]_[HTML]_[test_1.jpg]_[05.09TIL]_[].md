@@ -41,13 +41,13 @@
 - Cascading
     - CSS에서 스타일이 적용될 때는, 우선순위를 가지고 적용 됩니다. 이 우선 순위가 적용되는 과정이 마치 폭포처럼 위에서 아래로 떨어지는 모양이기 때문에 Cascade 라는 단어가 붙었습니다.
 - CSS의 우선순위
-    - Extemal CSS(CSS파일) → CSS in <head>(<head>안에 있는 <style></style>) → inline CSS(<body> 안에 있는 태그에 붙은 <style>) → CSS applied by the user(개발자가 아닌 사용자가 브라우저에서 직접 변경 하는 것)
+    - Extemal CSS(CSS파일) → CSS in```<head>```(```<head>```안에 있는 ```<style></style>```) → inline CSS(```<body> 안에 있는 태그에 붙은 <style>```) → CSS applied by the user(개발자가 아닌 사용자가 브라우저에서 직접 변경 하는 것)
 - CSS는 우리가 작성한 HTML의 스타일, 레이아웃 등을 꾸미는 역할을 합니다.
 - CSS를 한번 작성하여 여러 HTML에서 재사용 할 수 있습니다.
 
 ## 작성방법
 
-![CSS.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8f11927-b70c-4524-9227-a3efac08e7aa/53928a8c-b011-42e6-90d5-0c8823ee93f0/CSS.png)
+<img alt="CSS.png" src="TIL/5:9/CSS.png"/>
 
 - 아래와 같이 작성하면 됩니다.
 
@@ -106,7 +106,6 @@ h1 {
 p{
 	font-size: 24px;
 }
-
 ```
 
 ## id 선택자(`#`)
@@ -200,7 +199,7 @@ section p{
 
 - 결과
 
-![스크린샷 2024-05-09 오전 11.52.09.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8f11927-b70c-4524-9227-a3efac08e7aa/5b2ef474-d8f3-40f3-abcf-5e3c00c249c6/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-05-09_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.52.09.png)
+<img alt="0509실습내용" src="TIL/5:9/0509실습내용.png"/>
 
 ### 자식 선택자(`>`)
 
@@ -525,7 +524,7 @@ CSS의 자연스러운 상속을 깨트리고 추후 오류 및 버그 발생 �
 
 - 결과
 
-![스크린샷 2024-05-10 오전 11.34.14.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8f11927-b70c-4524-9227-a3efac08e7aa/b5534948-009c-4a5a-b40c-5ec653a94f97/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-05-10_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.34.14.png)
+<img alt="0509과제" src="TIL/5:9/0509과제.png"/>
 
 ---
 

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="72a3206c-8e9b-435a-9469-860722f1832a" name="변경" comment="" />
+    <list default="true" id="72a3206c-8e9b-435a-9469-860722f1832a" name="변경" comment=":pencil: TIL 수정">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,24 +15,50 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;whwnsgh0258&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/whwnsgh0258/weniv_blog.git&quot;,
+    &quot;accountId&quot;: &quot;66d7abfa-0459-45a7-8fc4-6e173513be9c&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2gRVGKqwVbSdgRojrwDYqmQRJda" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "ignore_missing_gitignore": "true",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -44,10 +75,76 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715660279908</updated>
+      <workItem from="1715660280989" duration="1256000" />
+      <workItem from="1715849622316" duration="1106000" />
+      <workItem from="1716968816508" duration="144000" />
+      <workItem from="1717034333193" duration="742000" />
+      <workItem from="1717321785241" duration="4530000" />
     </task>
+    <task id="LOCAL-00001" summary=":pencil: 05/08 TIL 수정">
+      <option name="closed" value="true" />
+      <created>1715661132518</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715661132518</updated>
+    </task>
+    <task id="LOCAL-00002" summary=":pencil: 05/09 TIL">
+      <option name="closed" value="true" />
+      <created>1715849789061</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715849789061</updated>
+    </task>
+    <task id="LOCAL-00003" summary="config 수정">
+      <option name="closed" value="true" />
+      <created>1717322133838</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717322133839</updated>
+    </task>
+    <task id="LOCAL-00004" summary=":pencil: TIL 수정 및 이미지 추가">
+      <option name="closed" value="true" />
+      <created>1717325177460</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717325177460</updated>
+    </task>
+    <task id="LOCAL-00005" summary=":pencil: TIL 수정">
+      <option name="closed" value="true" />
+      <created>1717325251103</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717325251103</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value=":pencil: 05/08 TIL 수정" />
+    <MESSAGE value=":pencil: 05/09 TIL" />
+    <MESSAGE value="config 수정" />
+    <MESSAGE value=":pencil: TIL 수정 및 이미지 추가" />
+    <MESSAGE value=":pencil: TIL 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value=":pencil: TIL 수정" />
   </component>
 </project>

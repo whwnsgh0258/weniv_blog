@@ -50,7 +50,7 @@
 
 ex)
 
-![스크린샷 2024-05-08 오후 10.34.35.png](/img/Til/5:8/스크린샷 2024-05-08 오후 10.34.35.png)
+<img alt="네이버 예시" src="TIL/5:8/스크린샷 2024-05-08 오후 10.34.35.png"/>
 
 - 양식 데이터를 action URL과 ?를 뒤에 붙혀서 전송 합니다.
 
@@ -100,13 +100,13 @@ ex) `https://example.com?name=홍길동&age=20`
 
 - 실행화면
 
-![스크린샷 2024-05-08 오후 10.46.50.png](/img/Til/5:8/0508실습내용.png)
+<img alt="0508실습내용.png" src="TIL/5:8/0508실습내용.png"/>
 
 - 회원가입 후 URL
   name → email, pwd, gender, skill
   value → 123%40123, 123, male, html (%40은 인코딩된 ‘@’)
 
-![스크린샷 2024-05-08 오후 10.53.41.png](/img/Til/5:8/url.png)
+<img alt="URL스크린샷" src="TIL/5:8/url.png"/>
 
 ## `action` 속성 (요청을 처리할 주소)
 

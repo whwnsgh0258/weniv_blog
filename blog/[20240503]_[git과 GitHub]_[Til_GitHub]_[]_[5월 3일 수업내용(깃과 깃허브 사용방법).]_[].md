@@ -98,7 +98,7 @@ git push: 원격 저장소에 코드를 올립니다.
 
           결과
 
-          ![깃헙예시.png](/img/Til/5:3/깃헙예시.png)
+          <img alt="깃헙예시.png" src="/blog/TIL/5:3/깃헙예시.png"/>
 
 
 ## 피드백 및 실습
