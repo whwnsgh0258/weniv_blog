@@ -47,7 +47,7 @@
 
 ## 작성방법
 
-<img alt="CSS.png" src="TIL/5:9/CSS.png"/>
+<img alt="CSS.png" src="blog/TIL/5:9/CSS.png"/>
 
 - 아래와 같이 작성하면 됩니다.
 
@@ -524,7 +524,7 @@ CSS의 자연스러운 상속을 깨트리고 추후 오류 및 버그 발생 �
 
 - 결과
 
-<img alt="0509과제" src="TIL/5:9/0509과제.png"/>
+<img alt="0509과제" src="blog/TIL/5:9/0509과제.png"/>
 
 ---
 
