@@ -354,7 +354,7 @@ gantt
       // 뒤로 가는 것은 3가지 케이스가 있을 수 있음
       // 1. 뒤로 갔을 때 메인 페이지(/), 뒤로 갔을 때 블로그 리스트 페이지(/?menu=blog.md) (실제로는 동일)
       // 2. 뒤로 갔을 때 menu 페이지(/?menu=about.md)
-      // 3. 뒤로 갔을 때 post 페이지(/?post=20210601_[제목]_[카테고리]_[썸네일]_[저자].md)
+      // 3. 뒤로 갔을 때 post 페이지(/?post=20210601_[제목]_[카테고리]_[썸네일]_[저자][20240510]_[position 과 flex]_[CSS]_[JavaThum.svg]_[CSS]_[].md)
 
       // 렌더링이 이미 된 것은 category, init, blogList, blogMenu
 
