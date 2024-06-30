@@ -238,10 +238,10 @@ SELECT name,age,address FROM students WHERE address = '부산';
 
 ### 수정(INSERT)
 
-- UPDATE: 수정할 테이블을 지정
-- SET: 데이터 수정
-- WHERE: 수정할 데이터 필터링
-- students 테이블의 age 열에서 30이하인 행들만 address 열의 데이터를 ‘강원도’로 변경
+- UPDATE: 수정할 테이블을 지정<br>
+- SET: 데이터 수정<br>
+- WHERE: 수정할 데이터 필터링<br>
+- students 테이블의 age 열에서 30이하인 행들만 address 열의 데이터를 ‘강원도’로 변경<br>
 
     ```sql
     UPDATE students
