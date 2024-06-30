@@ -107,7 +107,7 @@
 - 결과
   (예시에는 block 요소인 div를 사용 하였기 때문에 아래 와 같은 형태로 나오게 됩니다.)
 
-<img src="blog/TIL/5:10/static.png" alt="스태틱">
+<img src="blog/TIL/5:10/static.png" alt="#">
 
 ### 2.2 position: relative
 
@@ -117,7 +117,7 @@
 - 예시) box1(`postion: static`), box2(`postion: relative`) 상태에서 box2에 `top: 50px;`을 주게되면 기존에 있어야 할 위치에서 왼쪽으로 50px만큼 이동하게 됩니다.
 - 결과
 
-<img src="blog/TIL/5:10/relative.png" alt="relative">
+<img src="blog/TIL/5:10/relative.png" alt="#">
 
 ### 2.3 position: absolute
 
@@ -127,7 +127,7 @@ absolute는 static을 제외한 position 속성값을 가진 가장 가까운 �
 - 예시) box1(`postion: static`), box2(`postion: absolute`) 상태에서 box2에 `top:30px` 을 준다면 box1을 무시하고 최상단에서 30px만큼 떨어져서 나오게 됩니다.
 - 결과
 
-<img src="/blog/TIL/5:10/absolute1.png">
+<img src="blog/TIL/5:10/absolute1.png" alt="#">
 
 - 하지만 absolute는 부모의 위치에 영향을 받기 때문에 부모 태그가 있다면 부모 태그의 위치를 기준으로 움직이게 됩니다
 - 예시) box1(부모)을 기준으로
@@ -257,7 +257,7 @@ absolute는 static을 제외한 position 속성값을 가진 가장 가까운 �
 - 별도로 높이나 넓이를 고정시키지 않으면 부모 요소의 높이나 넓이만큼 늘어납니다.
 - 예시) 아래와 같은 구조로 이미지 배치하기
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8f11927-b70c-4524-9227-a3efac08e7aa/5d938e3b-149a-4768-85df-d2f36a800cc1/Untitled.png)
+<img src="blog/TIL/5:10/실습문제1.png" alt="#">
 
 - 코드
 
@@ -329,7 +329,7 @@ absolute는 static을 제외한 position 속성값을 가진 가장 가까운 �
 
 연습문제(**`justify-content: row-reverse 와 end`** 둘다 사용가능)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8f11927-b70c-4524-9227-a3efac08e7aa/bcad7487-0be3-4138-b5c7-74eeb1d12f18/Untitled.png)
+<img src="blog/TIL/5:10/실습문제2.png" alt="#">
 
 - 코드
 
