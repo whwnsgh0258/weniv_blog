@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45494a7d-061c-47e4-ab89-d5218bc57b6d" name="변경" comment=":fire: gitignore">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="45494a7d-061c-47e4-ab89-d5218bc57b6d" name="변경" comment=":fire: 이미지 추가">
+      <change beforePath="$PROJECT_DIR$/blog/[20240510]_[position 과 flex]_[CSS]_[JavaThum.svg]_[CSS]_[].md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/[20240510]_[position 과 flex]_[CSS]_[test_1.jpg]_[CSS]_[].md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/URLparsing.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/URLparsing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/mobileMenuToggle.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/mobileMenuToggle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old-README.md" beforeDir="false" afterPath="$PROJECT_DIR$/old-README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +24,12 @@
     &quot;assignee&quot;: &quot;whwnsgh0258&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/whwnsgh0258/weniv_blog.git",
-    "accountId": "59098739-a8a1-4854-8b8b-51a5a631b6ba"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/whwnsgh0258/weniv_blog.git&quot;,
+    &quot;accountId&quot;: &quot;59098739-a8a1-4854-8b8b-51a5a631b6ba&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -74,6 +77,7 @@
       <workItem from="1717485049903" duration="905000" />
       <workItem from="1717491610001" duration="871000" />
       <workItem from="1717495324076" duration="16000" />
+      <workItem from="1718959657209" duration="3817000" />
     </task>
     <task id="LOCAL-00001" summary=":fire: gitignore">
       <option name="closed" value="true" />
@@ -107,13 +111,44 @@
       <option name="project" value="LOCAL" />
       <updated>1717485281851</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=":fire: 이미지 추가">
+      <option name="closed" value="true" />
+      <created>1719055029159</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719055029159</updated>
+    </task>
+    <task id="LOCAL-00006" summary=":fire: 이미지 추가">
+      <option name="closed" value="true" />
+      <created>1719056056254</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719056056254</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -121,10 +156,11 @@
             <State>
               <option name="FILTERS">
                 <map>
-                  <entry key="branch">
+                  <entry key="date">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="1718969679086" />
+                        <option value="" />
                       </list>
                     </value>
                   </entry>
@@ -139,6 +175,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value=":fire: gitignore, img 추가" />
     <MESSAGE value=":fire: gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value=":fire: gitignore" />
+    <MESSAGE value=":fire: 이미지 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value=":fire: 이미지 추가" />
   </component>
 </project>
