@@ -128,7 +128,7 @@ public class UserRepository {
 }
 ```
 
-**`UserRepository`**를 생성자를 통해 주입받아서 **`UserService`**와 **`UserRepository`**간의 결합도를 낮춰줍니다.
+**`UserRepository`** 를 생성자를 통해 주입받아서 **`UserService`** 와 **`UserRepository`** 간의 결합도를 낮춰줍니다.
 
 # Spring Bean
 
