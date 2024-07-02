@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45494a7d-061c-47e4-ab89-d5218bc57b6d" name="변경" comment=":fire: 이미지 추가">
-      <change beforePath="$PROJECT_DIR$/blog/[20240510]_[position 과 flex]_[CSS]_[JavaThum.svg]_[CSS]_[].md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/[20240510]_[position 과 flex]_[CSS]_[test_1.jpg]_[CSS]_[].md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/URLparsing.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/URLparsing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/mobileMenuToggle.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/mobileMenuToggle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old-README.md" beforeDir="false" afterPath="$PROJECT_DIR$/old-README.md" afterDir="false" />
+    <list default="true" id="45494a7d-061c-47e4-ab89-d5218bc57b6d" name="변경" comment=":seedling: 스프링 MVC 이미지 추가">
+      <change afterPath="$PROJECT_DIR$/blog/[20240702]_[Spring 3일차(JPA)]_[Spring]_[Spring Boot.jpeg]_[Spring 3일차]_[].md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/[20240628]_[Spring 1일차]_[Spring]_[Spring Boot.jpeg]_[Spring 1일차]_[].md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/[20240628]_[Spring 1일차]_[Spring]_[Spring Boot.jpeg]_[Spring 1일차]_[].md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/[20240701]_[Spring 2일차]_[Spring]_[Spring Boot.jpeg]_[Spring 2일차]_[].md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/[20240701]_[Spring 2일차]_[Spring]_[Spring Boot.jpeg]_[Spring 2일차]_[].md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/CSS.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jojunho/IdeaProjects/git_blog/blog&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -53,7 +55,11 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/blog" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/blog/TIL/7:01" />
       <recent name="$PROJECT_DIR$/blog" />
     </key>
   </component>
@@ -78,6 +84,11 @@
       <workItem from="1717491610001" duration="871000" />
       <workItem from="1717495324076" duration="16000" />
       <workItem from="1718959657209" duration="3817000" />
+      <workItem from="1719562071130" duration="8125000" />
+      <workItem from="1719743104041" duration="7283000" />
+      <workItem from="1719795681947" duration="27278000" />
+      <workItem from="1719883922853" duration="3404000" />
+      <workItem from="1719893065585" duration="1915000" />
     </task>
     <task id="LOCAL-00001" summary=":fire: gitignore">
       <option name="closed" value="true" />
@@ -127,7 +138,111 @@
       <option name="project" value="LOCAL" />
       <updated>1719056056254</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="TIL 수정 및 이미지 추가">
+      <option name="closed" value="true" />
+      <created>1719726357385</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719726357385</updated>
+    </task>
+    <task id="LOCAL-00008" summary="TIL 수정 및 이미지 추가">
+      <option name="closed" value="true" />
+      <created>1719727605067</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719727605067</updated>
+    </task>
+    <task id="LOCAL-00009" summary="5/10, 6/21 TIL 수정">
+      <option name="closed" value="true" />
+      <created>1719729022899</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719729022899</updated>
+    </task>
+    <task id="LOCAL-00010" summary="5/10, 6/21 TIL 수정">
+      <option name="closed" value="true" />
+      <created>1719729086818</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719729086818</updated>
+    </task>
+    <task id="LOCAL-00011" summary="5/10, 6/21 TIL 수정">
+      <option name="closed" value="true" />
+      <created>1719729232530</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1719729232530</updated>
+    </task>
+    <task id="LOCAL-00012" summary="6/21,  TIL 수정">
+      <option name="closed" value="true" />
+      <created>1719834689772</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1719834689772</updated>
+    </task>
+    <task id="LOCAL-00013" summary="6/21,  TIL 수정">
+      <option name="closed" value="true" />
+      <created>1719835128735</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1719835128735</updated>
+    </task>
+    <task id="LOCAL-00014" summary="6/21,  TIL 수정">
+      <option name="closed" value="true" />
+      <created>1719835582366</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1719835582366</updated>
+    </task>
+    <task id="LOCAL-00015" summary="6/21  TIL 수정">
+      <option name="closed" value="true" />
+      <created>1719836300033</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1719836300033</updated>
+    </task>
+    <task id="LOCAL-00016" summary="6/21  TIL 수정">
+      <option name="closed" value="true" />
+      <created>1719836906606</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1719836906606</updated>
+    </task>
+    <task id="LOCAL-00017" summary=":seedling: 7/1 TIL 작성, 6/21일 수정">
+      <option name="closed" value="true" />
+      <created>1719844308678</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1719844308678</updated>
+    </task>
+    <task id="LOCAL-00018" summary=":seedling: 7/1 TIL 작성, 6/21일 수정">
+      <option name="closed" value="true" />
+      <created>1719844342346</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1719844342346</updated>
+    </task>
+    <task id="LOCAL-00019" summary=":seedling: 스프링 MVC 이미지 추가">
+      <option name="closed" value="true" />
+      <created>1719844385627</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1719844385627</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +291,12 @@
     <MESSAGE value=":fire: gitignore, img 추가" />
     <MESSAGE value=":fire: gitignore" />
     <MESSAGE value=":fire: 이미지 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value=":fire: 이미지 추가" />
+    <MESSAGE value="TIL 수정 및 이미지 추가" />
+    <MESSAGE value="5/10, 6/21 TIL 수정" />
+    <MESSAGE value="6/21,  TIL 수정" />
+    <MESSAGE value="6/21  TIL 수정" />
+    <MESSAGE value=":seedling: 7/1 TIL 작성, 6/21일 수정" />
+    <MESSAGE value=":seedling: 스프링 MVC 이미지 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value=":seedling: 스프링 MVC 이미지 추가" />
   </component>
 </project>

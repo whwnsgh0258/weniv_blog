@@ -205,7 +205,7 @@ public class UserController {
 
 * 결과<br><img src="blog/TIL/7:01/MVC.png" alt="#">
 
-1. **model**
+1. **Model**
     * 사용자의 정보를 저장하는 객체
     * 비즈니스 로직과 데이터 표현을 담당
     * 데이터의 상태를 관리하고 조작하
