@@ -167,8 +167,7 @@ public class DeletePlainJdbcExample {
 
 ## 스프링 프로젝트 생성
 
-- 종속성 추가<br>
-<img src="blog/TIL/7:02/dependency.png" alt="#">
+- 종속성 추가<br><img src="blog/TIL/7:02/dependency.png" alt="#">
 
 - properties 파일 작성
 ```properties
@@ -266,18 +265,14 @@ private StudentRepository studentRepository;
 ```
 ### 테스트 코드를 작성하고 데이터가 잘 들어갔는지 확인
 
-- 기존 테이블<br>
-<img src="blog/TIL/7:02/DataTable.png" alt="#"><br>
+- 기존 테이블<br><img src="blog/TIL/7:02/DataTable.png" alt="#"><br>
 
-- List<Student> findALl() 테스트 실행<br>
-<img src="blog/TIL/7:02/List<>findAll().png" alt="#"><br>
+- List<Student> findALl() 테스트 실행<br><img src="blog/TIL/7:02/List<>findAll().png" alt="#"><br>
 
-- insert 메서드 테스트 실행 후 데이터 확인<br>
-<img src="blog/TIL/7:02/insert.png" alt="#"><br>
+- insert 메서드 테스트 실행 후 데이터 확인<br><img src="blog/TIL/7:02/insert.png" alt="#"><br>
 3번째 아이디에 데이터(장이수, 40, 제주도)가 들어간 것을 확인할 수 있음<br>
 
-- delete 메서드 케스트 실행 후 데이터 확인<br>
-<img src="blog/TIL/7:02/delete.png" alt="#"><br>
+- delete 메서드 케스트 실행 후 데이터 확인<br><img src="blog/TIL/7:02/delete.png" alt="#"><br>
 아이디가 1인 데이터 row가 삭제되고 아이디가 2,3인 데이터 row만 남음
 
 # 회고
