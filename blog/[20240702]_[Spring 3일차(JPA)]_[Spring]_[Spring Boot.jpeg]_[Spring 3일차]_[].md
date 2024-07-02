@@ -170,12 +170,14 @@ public class DeletePlainJdbcExample {
 - 종속성 추가<br><img src="blog/TIL/7:02/dependency.png" alt="#">
 
 - properties 파일 작성
+
 ```properties
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.datasource.url=jdbc:mysql://localhost:3306/데이터베이스명
 spring.datasource.username=사용자명
 spring.datasource.password=비밀번호
 ```
+
 - domain 폴더에 Student 파일생성 후 데이터 정보 입력
 ```java
 @AllArgsConstructor // 필드에 있는 변수를 파라미터로 가지는 생성자
@@ -265,14 +267,14 @@ private StudentRepository studentRepository;
 ```
 ### 테스트 코드를 작성하고 데이터가 잘 들어갔는지 확인
 
-- 기존 테이블<br><img src="blog/TIL/7:02/DataTable.png" alt="#"><br>
+- 기존 테이블<br><img src="blog/TIL/7:02/DataTable.png" alt="#">
+  
+- List<Student> findALl() 테스트 실행<br><img src="blog/TIL/7:02/List<>findAll().png" alt="#">
 
-- List<Student> findALl() 테스트 실행<br><img src="blog/TIL/7:02/List<>findAll().png" alt="#"><br>
-
-- insert 메서드 테스트 실행 후 데이터 확인<br><img src="blog/TIL/7:02/insert.png" alt="#"><br>
+- insert 메서드 테스트 실행 후 데이터 확인<br><img src="blog/TIL/7:02/insert.png" alt="#">
 3번째 아이디에 데이터(장이수, 40, 제주도)가 들어간 것을 확인할 수 있음<br>
 
-- delete 메서드 케스트 실행 후 데이터 확인<br><img src="blog/TIL/7:02/delete.png" alt="#"><br>
+- delete 메서드 케스트 실행 후 데이터 확인<br><img src="blog/TIL/7:02/delete.png" alt="#">
 아이디가 1인 데이터 row가 삭제되고 아이디가 2,3인 데이터 row만 남음
 
 # 회고
