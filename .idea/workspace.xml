@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45494a7d-061c-47e4-ab89-d5218bc57b6d" name="변경" comment=":seedling: 스프링 MVC 이미지 추가">
-      <change afterPath="$PROJECT_DIR$/blog/[20240702]_[Spring 3일차(JPA)]_[Spring]_[Spring Boot.jpeg]_[Spring 3일차]_[].md" afterDir="false" />
+    <list default="true" id="45494a7d-061c-47e4-ab89-d5218bc57b6d" name="변경" comment=":seedling: 07/02 TIL 작성">
+      <change afterPath="$PROJECT_DIR$/blog/[20240703]_[Spring 4일차(MyBatais)]_[Spring]_[Spring Boot.jpeg]_[Spring 4일차]_[].md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/[20240703]_[error]_[org.hibernate.service.spi.ServiceException]_[Spring Boot.jpeg]_[Spring 4일차]_[].md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/[20240628]_[Spring 1일차]_[Spring]_[Spring Boot.jpeg]_[Spring 1일차]_[].md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/[20240628]_[Spring 1일차]_[Spring]_[Spring Boot.jpeg]_[Spring 1일차]_[].md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/[20240701]_[Spring 2일차]_[Spring]_[Spring Boot.jpeg]_[Spring 2일차]_[].md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/[20240701]_[Spring 2일차]_[Spring]_[Spring Boot.jpeg]_[Spring 2일차]_[].md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/CSS.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +29,9 @@
     &quot;accountId&quot;: &quot;59098739-a8a1-4854-8b8b-51a5a631b6ba&quot;
   }
 }</component>
+  <component name="PerforceDirect.Settings">
+    <option name="CHARSET" value="없음" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -57,8 +58,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/blog" />
+      <recent name="$PROJECT_DIR$/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/blog/TIL/7:02" />
       <recent name="$PROJECT_DIR$/blog/TIL/7:01" />
       <recent name="$PROJECT_DIR$/blog" />
     </key>
@@ -89,6 +92,12 @@
       <workItem from="1719795681947" duration="27278000" />
       <workItem from="1719883922853" duration="3404000" />
       <workItem from="1719893065585" duration="1915000" />
+      <workItem from="1719920587923" duration="7362000" />
+      <workItem from="1719969919360" duration="2712000" />
+      <workItem from="1719983874190" duration="241000" />
+      <workItem from="1719984682077" duration="555000" />
+      <workItem from="1719993680695" duration="404000" />
+      <workItem from="1720009493257" duration="2290000" />
     </task>
     <task id="LOCAL-00001" summary=":fire: gitignore">
       <option name="closed" value="true" />
@@ -242,7 +251,31 @@
       <option name="project" value="LOCAL" />
       <updated>1719844385627</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary=":seedling: 07/02 TIL 작성">
+      <option name="closed" value="true" />
+      <created>1719927654400</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1719927654400</updated>
+    </task>
+    <task id="LOCAL-00021" summary=":seedling: 07/02 TIL 작성">
+      <option name="closed" value="true" />
+      <created>1719927843957</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1719927843957</updated>
+    </task>
+    <task id="LOCAL-00022" summary=":seedling: 07/02 TIL 작성">
+      <option name="closed" value="true" />
+      <created>1719927967284</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1719927967284</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,6 +330,7 @@
     <MESSAGE value="6/21  TIL 수정" />
     <MESSAGE value=":seedling: 7/1 TIL 작성, 6/21일 수정" />
     <MESSAGE value=":seedling: 스프링 MVC 이미지 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value=":seedling: 스프링 MVC 이미지 추가" />
+    <MESSAGE value=":seedling: 07/02 TIL 작성" />
+    <option name="LAST_COMMIT_MESSAGE" value=":seedling: 07/02 TIL 작성" />
   </component>
 </project>
