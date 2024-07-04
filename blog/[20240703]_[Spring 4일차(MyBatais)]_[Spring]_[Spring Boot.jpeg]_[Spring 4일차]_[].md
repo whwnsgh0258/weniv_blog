@@ -199,7 +199,7 @@ VALUES (#{name}, #{age}, #{address});
 
 11. Postman에서 데이터 삽입해주기
     - 우선 Postman을 다운받고 앱에서 로그인<br><img src="blog/TIL/7:03/Postman.png" alt="#">
-    - url 작성 및 삽입하고자 하는 데이터 정보 작성<br><img src="blogTIL/7:03/POST.png" alt="#">
+    - url 작성 및 삽입하고자 하는 데이터 정보 작성<br><img src="blog/TIL/7:03/POST.png" alt="#">
 12. 결과 확인
     - 기존데이터<br><img src="blog/TIL/7:03/BeforeData.png" alt="#">
     - 삽입 후 데이터<br><img src="blog/TIL/7:03/AfterData.png" alt="#">
