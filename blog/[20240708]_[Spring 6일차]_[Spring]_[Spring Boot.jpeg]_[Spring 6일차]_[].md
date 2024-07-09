@@ -1,6 +1,3 @@
-# SpringBoot Layer(계층)
-
-## Presentation Layer
 
 # @SpringBootApplication 어노테이션
 
@@ -60,30 +57,38 @@
 
 ```java
 
+package com.example;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Repository;
+
 @SpringBootApplication(scanBasePackages = "com.example") // 해당 패키지를 포함한 하위 패키지를 모두 스캔
-public class classMyApp {
+public class MyApp {
     public static void main(String[] args) {
         SpringApplication.run(MyApp.class, args);
     }
 }
 
-// 컨트롤러 패키지(MVC 패턴에서 Controller에 해당)
-@RequstController
+// 컨트롤러 패키지 (MVC 패턴에서 Controller에 해당)
+@RestController
 public class MyController {
     @GetMapping("/hello") // API 앤드포인트
     public String hello() {
-        return "하이";
-        // 스프링부트를 실행하고 localhost:8080/hello 로 들어가면 "하이"를 반환
+        return "하이"; // Spring Boot를 실행하고 localhost:8080/hello 로 접속하면 "하이"를 반환
     }
 }
 
-// 서비스 패키지(MVC 패턴에서 Model에 해당)
+// 서비스 패키지 (MVC 패턴에서 Service에 해당)
 @Service
 public class MyService {
-    // 서비스 로직(비지니스 로직)
+    // 서비스 로직 (비즈니스 로직)
 }
 
-// 레포지토리 패키지(MVC 패턴에서 Model에 해당)
+// 레포지토리 패키지 (MVC 패턴에서 Repository에 해당)
 @Repository
 public interface MyRepository {
     // 레포지토리 로직
@@ -130,7 +135,7 @@ com.example
 
 ```java
 
-@Servece
+@Service
 public class MyService {
     private MyDependency myDependency;
 
@@ -161,7 +166,7 @@ public class MyService {
 
 ```java
 
-@Servece
+@Service
 public class MyService {
     @Autowired // 필드에 의존성 주입
     private MyDependency myDependency;
@@ -189,7 +194,7 @@ public class MyService {
 
 ```java
 
-@Servece
+@Service
 @RequiredArgsConstructor // 생성자를 만들어줘야 하는 필드에 한해서 생성자 메서드 생성
 public class MyService {
     private final MyDependency myDependency;

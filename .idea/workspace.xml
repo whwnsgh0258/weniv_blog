@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45494a7d-061c-47e4-ab89-d5218bc57b6d" name="변경" comment=":seedling: 07/04 TIL 작성">
+    <list default="true" id="45494a7d-061c-47e4-ab89-d5218bc57b6d" name="변경" comment=":seedling: 07/08 TIL 작성">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +47,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -56,11 +57,11 @@
       <recent name="$PROJECT_DIR$/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/blog/TIL/7:08" />
       <recent name="$PROJECT_DIR$/blog/TIL/7:04" />
       <recent name="$PROJECT_DIR$/blog/TIL/7:03" />
       <recent name="$PROJECT_DIR$/blog/TIL/7:02" />
       <recent name="$PROJECT_DIR$/blog/TIL/7:01" />
-      <recent name="$PROJECT_DIR$/blog" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -96,6 +97,8 @@
       <workItem from="1719993680695" duration="404000" />
       <workItem from="1720009493257" duration="13307000" />
       <workItem from="1720329509618" duration="14643000" />
+      <workItem from="1720413403095" duration="13181000" />
+      <workItem from="1720448152369" duration="1055000" />
     </task>
     <task id="LOCAL-00001" summary=":fire: gitignore">
       <option name="closed" value="true" />
@@ -297,7 +300,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720368470397</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary=":seedling: 07/08 TIL 작성">
+      <option name="closed" value="true" />
+      <created>1720444178384</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1720444178384</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,6 +367,11 @@
     <MESSAGE value=":seedling: 07/03 TIL 작성" />
     <MESSAGE value=":seedling: 07/03 TIL 이미지 수정" />
     <MESSAGE value=":seedling: 07/04 TIL 작성" />
-    <option name="LAST_COMMIT_MESSAGE" value=":seedling: 07/04 TIL 작성" />
+    <MESSAGE value=":seedling: 07/08 TIL 작성" />
+    <option name="LAST_COMMIT_MESSAGE" value=":seedling: 07/08 TIL 작성" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
