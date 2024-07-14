@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45494a7d-061c-47e4-ab89-d5218bc57b6d" name="변경" comment=":seedling: 썸네일">
-      <change afterPath="$PROJECT_DIR$/blog/[20240709]_[스프링 부트 화면 구성]_[Spring]_[Spring 7일차.png]_[Spring 7일차]_[].md" afterDir="false" />
+    <list default="true" id="45494a7d-061c-47e4-ab89-d5218bc57b6d" name="변경" comment=":seedling: 7/9 TIL 작성">
+      <change afterPath="$PROJECT_DIR$/blog/TIL/7:10/AWSConsole.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/TIL/7:10/CreateProfile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/TIL/7:10/ProfileSetting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/TIL/7:10/Tabby.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/TIL/7:10/ls-a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/TIL/7:10/ls-l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/TIL/7:10/ls-lh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/TIL/7:10/mv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/TIL/7:10/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/TIL/7:10/sshStart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/[20240710]_[AWS와 ssh 기본 명령어]_[AWS]_[AWS1]_[AWS]_[].md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/AWS1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/[20240702]_[Spring 3일차(JPA)]_[Spring]_[Spring Boot.jpeg]_[Spring 3일차]_[].md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/[20240702]_[Spring JDBC]_[Spring]_[Spring Boot.jpeg]_[Spring 3일차]_[].md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/[20240703]_[Spring 4일차(MyBatais)]_[Spring]_[Spring Boot.jpeg]_[Spring 4일차]_[].md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/[20240703]_[Spring MyBatais]_[Spring]_[Spring Boot.jpeg]_[Spring 4일차]_[].md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/[20240704]_[Spring 5일차(JPA)]_[Spring]_[Spring Boot.jpeg]_[Spring 5일차]_[].md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/[20240704]_[Spring JPA]_[Spring]_[Spring Boot.jpeg]_[Spring 5일차]_[].md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/[20240708]_[Spring 6일차]_[Spring]_[Spring Boot.jpeg]_[Spring 6일차]_[].md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/[20240708]_[Spring 의존성 주입 및 어노테이션]_[Spring]_[Spring Boot.jpeg]_[Spring 6일차]_[].md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/[20240709]_[스프링 부트 외부 설정 및 화면 구성]_[Spring]_[Spring 7일차.png]_[Spring 7일차]_[].md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/[20240709]_[스프링 부트 외부 설정]_[Spring]_[Spring 7일차.png]_[Spring 7일차]_[].md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,10 +70,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/blog/TIL/7:10" />
       <recent name="$PROJECT_DIR$/blog/TIL/7:09" />
       <recent name="$PROJECT_DIR$/img/thumbnail" />
       <recent name="$PROJECT_DIR$/blog/TIL/7:08" />
-      <recent name="$PROJECT_DIR$/blog/TIL/7:04" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -107,6 +113,8 @@
       <workItem from="1720448152369" duration="1055000" />
       <workItem from="1720524139305" duration="15495000" />
       <workItem from="1720760444047" duration="3197000" />
+      <workItem from="1720929139573" duration="4510000" />
+      <workItem from="1720933951537" duration="12766000" />
     </task>
     <task id="LOCAL-00001" summary=":fire: gitignore">
       <option name="closed" value="true" />
@@ -332,7 +340,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720539665223</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary=":seedling: 7/9 TIL 작성">
+      <option name="closed" value="true" />
+      <created>1720933581549</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1720933581549</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +410,8 @@
     <MESSAGE value=":seedling: 07/08 TIL 작성" />
     <MESSAGE value=":seedling: 07/09 TIL 작성" />
     <MESSAGE value=":seedling: 이미지 파일 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value=":seedling: 이미지 파일 변경" />
+    <MESSAGE value=":seedling: 7/9 TIL 작성" />
+    <option name="LAST_COMMIT_MESSAGE" value=":seedling: 7/9 TIL 작성" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
