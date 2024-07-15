@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45494a7d-061c-47e4-ab89-d5218bc57b6d" name="변경" comment=":seedling: 7/9 TIL 작성">
-      <change afterPath="$PROJECT_DIR$/blog/TIL/7:10/AWSConsole.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/TIL/7:10/CreateProfile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/TIL/7:10/ProfileSetting.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/TIL/7:10/Tabby.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/TIL/7:10/ls-a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/TIL/7:10/ls-l.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/TIL/7:10/ls-lh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/TIL/7:10/mv.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/TIL/7:10/profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/TIL/7:10/sshStart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/[20240710]_[AWS와 ssh 기본 명령어]_[AWS]_[AWS1]_[AWS]_[].md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/AWS1.png" afterDir="false" />
+    <list default="true" id="45494a7d-061c-47e4-ab89-d5218bc57b6d" name="변경" comment=":seedling: 7/10 TIL 작성">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +102,7 @@
       <workItem from="1720524139305" duration="15495000" />
       <workItem from="1720760444047" duration="3197000" />
       <workItem from="1720929139573" duration="4510000" />
-      <workItem from="1720933951537" duration="12766000" />
+      <workItem from="1720933951537" duration="14280000" />
     </task>
     <task id="LOCAL-00001" summary=":fire: gitignore">
       <option name="closed" value="true" />
@@ -348,7 +336,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720933581549</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary=":seedling: 7/10 TIL 작성">
+      <option name="closed" value="true" />
+      <created>1720968399219</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1720968399219</updated>
+    </task>
+    <task id="LOCAL-00031" summary=":seedling: 7/10 TIL 작성">
+      <option name="closed" value="true" />
+      <created>1720968479337</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1720968479337</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,7 +415,8 @@
     <MESSAGE value=":seedling: 07/09 TIL 작성" />
     <MESSAGE value=":seedling: 이미지 파일 변경" />
     <MESSAGE value=":seedling: 7/9 TIL 작성" />
-    <option name="LAST_COMMIT_MESSAGE" value=":seedling: 7/9 TIL 작성" />
+    <MESSAGE value=":seedling: 7/10 TIL 작성" />
+    <option name="LAST_COMMIT_MESSAGE" value=":seedling: 7/10 TIL 작성" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
