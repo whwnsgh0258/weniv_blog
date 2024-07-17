@@ -46,9 +46,8 @@ public class PostController{
 }
 ```
 
-- 화면 생성(게시판 리스트)
-
-  css파일은 resources 폴더의 static 폴더에 넣어주고 html 파일은 templates 폴더에 넣어줍니다
+- 화면 생성(게시판 리스트)   
+css파일은 resources 폴더의 static 폴더에 넣어주고 html 파일은 templates 폴더에 넣어줍니다
 
 ```html
 <!DOCTYPE html>
