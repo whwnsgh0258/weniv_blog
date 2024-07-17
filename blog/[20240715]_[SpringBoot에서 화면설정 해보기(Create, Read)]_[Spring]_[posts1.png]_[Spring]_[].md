@@ -1,7 +1,6 @@
 # 화면 생성(Create, Read) - 게시판 생성하기
 
 - Post 클래스(Entity 설계)
-
 ```java
 
 @Getter
@@ -17,7 +16,6 @@ public class Post {
 ```
 
 - PostController 클래스(Create, Read 메서드 추가)
-
 ```java
 
 @Controller
@@ -49,8 +47,7 @@ public class PostController {
 ```
 
 - 화면 생성(게시판 리스트)   
-  css파일은 resources 폴더의 static 폴더에 넣어주고 html 파일은 templates 폴더에 넣어줍니다
-
+  css파일은 resources 폴더의 static 폴더에 넣어주고 html 파일은 templates 폴더에 넣어줍니다.
 ```html
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
@@ -163,7 +160,5 @@ form button[type="submit"] {
 </details>
 
 - 게시글 리스트 페이지![게시글 리스트](blog/TIL/7:15/PostList.png)
-
 - 글 작성 페이지![게시글 작성 페이지](blog/TIL/7:15/PostCreate.png)
-
 - 작성 후 리스트 페이지(작성된 글이 잘 나오는지 확인)![게시글 작성 후 게시글 목록](blog/TIL/7:15/PostList2.png)]()
