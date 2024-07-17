@@ -230,8 +230,6 @@ css파일은 resources 폴더의 static 폴더에 넣어주고 html 파일은 te
 
 </details>
 
-
-
 - 게시글 리스트 페이지![게시글 리스트](blog/TIL/7:16/PostList.png)
 - 수정 전 게시글 상세 페이지![수정 전 게시글 상세 페이지](blog/TIL/7:16/postDetails.png)
 - 게시글 수정 페이지 ![게시글 수정 페이지](blog/TIL/7:16/postEdit.png)

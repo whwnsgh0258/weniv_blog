@@ -161,4 +161,4 @@ form button[type="submit"] {
 
 - 게시글 리스트 페이지![게시글 리스트](blog/TIL/7:15/PostList.png)
 - 글 작성 페이지![게시글 작성 페이지](blog/TIL/7:15/PostCreate.png)
-- 작성 후 리스트 페이지(작성된 글이 잘 나오는지 확인)![게시글 작성 후 게시글 목록](blog/TIL/7:15/PostList2.png)]()
+- 작성 후 리스트 페이지(작성된 글이 잘 나오는지 확인)![게시글 작성 후 게시글 목록](blog/TIL/7:15/PostList2.png)
