@@ -27,7 +27,7 @@
 - MySQL
 - Validation
 - Thymleaf
-![img.png](../img/project1.png)
+
 ### 주요 기능별 요구사항
 
 - 로그인 하지않은 사용자가 접근할 수 있는 페이지
