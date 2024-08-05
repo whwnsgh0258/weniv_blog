@@ -29,19 +29,19 @@
 
 <div align="center"><h1>기술 스택</h1></div>
 <h2>Back</h2>
-<div style="display: inline-block">
+<div style="display: inline">
 <img alt="스프링부트" src="https://img.shields.io/badge/spring%20boot-none?style=for-the-badge&logo=spring%20boot&logoColor=white&labelColor=%236DB33F&color=%236DB33F">
 <img alt="스프링 시큐리티" src="https://img.shields.io/badge/spring%20security-none?style=for-the-badge&logo=spring%20security&logoColor=white&labelColor=%236DB33F&color=%236DB33F">
 <img  alt="MySQL" src="https://img.shields.io/badge/mysql-none?style=for-the-badge&logo=mysql&logoColor=white&labelColor=%234479A1&color=%234479A1">
 </div>
 <h2>Front</h2>
-<div style="display: inline-block">
+<div style="display: inline">
 <img alt="HTML" src="https://img.shields.io/badge/html5-none?style=for-the-badge&logo=html5&logoColor=white&labelColor=%23E34F26&color=%23E34F26">
 <img alt="자바스크립트" src="https://img.shields.io/badge/javascript-none?style=for-the-badge&logo=javascript&logoColor=white&labelColor=%23F7DF1E&color=%23F7DF1E">
 <img alt="타임리프" src="https://img.shields.io/badge/thymeleaf-none?style=for-the-badge&logo=thymeleaf&logoColor=white&labelColor=%23005F0F&color=%23005F0F">
 </div>
 <h2>Tool</h2>
-<div style="display: inline-block">
+<div style="display: inline">
 <img alt="피그마" src="https://img.shields.io/badge/figma-none?style=for-the-badge&logo=figma&logoColor=white&labelColor=%23F24E1E&color=%23F24E1E">
 <img alt="인텔리제이" src="https://img.shields.io/badge/intellij%20idea-none?style=for-the-badge&logo=intellijidea&logoColor=white&labelColor=%23000000&color=%23000000">
 <img alt="깃헙" src="https://img.shields.io/badge/git%20hub-none?style=for-the-badge&logo=github&logoColor=white&labelColor=%23181717&color=%23181717">
