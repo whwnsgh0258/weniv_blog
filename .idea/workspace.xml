@@ -4,14 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45494a7d-061c-47e4-ab89-d5218bc57b6d" name="변경" comment=":seedling: 7/17 TIL 수정">
-      <change afterPath="$PROJECT_DIR$/blog/TIL/7:18/DELETE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/TIL/7:18/DeleteOk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/TIL/7:18/GetAll.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/TIL/7:18/GetById.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/TIL/7:18/POST.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/TIL/7:18/UPDATE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/[20240718]_[Spring(RestFullAPI)-게시판 게시글 CRUD]_[Spring]_[RESTAPI.png]_[Spring]_[].md" afterDir="false" />
+    <list default="true" id="45494a7d-061c-47e4-ab89-d5218bc57b6d" name="변경" comment=":seedling: 7/22 게시글 수정, 7/23 게시글 생성">
+      <change afterPath="$PROJECT_DIR$/blog/TIL/8:20/스크린샷 2024-08-12 오전 10.20.08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/TIL/8:20/스크린샷 2024-08-12 오전 10.29.55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/TIL/8:20/스크린샷 2024-08-12 오전 11.30.20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/TIL/8:20/스크린샷 2024-08-12 오전 9.52.16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/TIL/8:20/스크린샷 2024-08-13 오후 1.39.03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/TIL/8:20/스크린샷 2024-08-13 오후 6.05.05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/TIL/8:20/스크린샷 2024-08-13 오후 6.08.36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/TIL/8:20/스크린샷 2024-08-13 오후 6.15.53.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/TIL/8:20/스크린샷 2024-08-13 오후 6.30.34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/TIL/8:20/스크린샷 2024-08-14 오전 12.13.40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/TIL/8:20/스크린샷 2024-08-16 오전 9.25.10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/TIL/8:20/스크린샷 2024-08-19 오전 12.21.10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/TIL/8:20/스크린샷 2024-08-19 오전 12.22.07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/TIL/8:20/스크린샷 2024-08-19 오전 12.22.29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/TIL/8:20/스크린샷 2024-08-19 오전 12.23.00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/[20240724]_[Spring 게시판 프로젝트]_[Spring]_[project1.png]_[Spring]_[].md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/[20240725]_[Spring 게시판 프로젝트]_[Spring]_[project1.png]_[Spring]_[].md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/[20240726]_[Spring 게시판 프로젝트]_[Spring]_[project1.png]_[Spring]_[].md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +126,19 @@
       <workItem from="1721204384396" duration="6641000" />
       <workItem from="1721236046969" duration="971000" />
       <workItem from="1721303925787" duration="3084000" />
-      <workItem from="1721576131879" duration="599000" />
+      <workItem from="1721576131879" duration="2660000" />
+      <workItem from="1722781866646" duration="8229000" />
+      <workItem from="1722818486528" duration="93000" />
+      <workItem from="1722866823574" duration="2226000" />
+      <workItem from="1722917398894" duration="2567000" />
+      <workItem from="1722926094217" duration="3836000" />
+      <workItem from="1723077629747" duration="2190000" />
+      <workItem from="1723510753682" duration="3215000" />
+      <workItem from="1723535604335" duration="966000" />
+      <workItem from="1727590348139" duration="1291000" />
+      <workItem from="1727592316904" duration="177000" />
+      <workItem from="1727592857176" duration="1513000" />
+      <workItem from="1729762027284" duration="677000" />
     </task>
     <task id="LOCAL-00001" summary=":fire: gitignore">
       <option name="closed" value="true" />
@@ -445,7 +468,63 @@
       <option name="project" value="LOCAL" />
       <updated>1721318268943</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary=":seedling: 7/18 TIL 작성">
+      <option name="closed" value="true" />
+      <created>1721576909933</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1721576909933</updated>
+    </task>
+    <task id="LOCAL-00043" summary=":seedling: 7/22 프로젝트 TIL 작성">
+      <option name="closed" value="true" />
+      <created>1722787674068</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1722787674068</updated>
+    </task>
+    <task id="LOCAL-00044" summary=":seedling: 7/22 프로젝트 TIL 수정">
+      <option name="closed" value="true" />
+      <created>1722787692314</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1722787692314</updated>
+    </task>
+    <task id="LOCAL-00045" summary=":seedling: 7/22 프로젝트 TIL 수정">
+      <option name="closed" value="true" />
+      <created>1722787788272</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1722787788272</updated>
+    </task>
+    <task id="LOCAL-00046" summary=":seedling: 7/22 프로젝트 TIL 수정">
+      <option name="closed" value="true" />
+      <created>1722867420804</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1722867420804</updated>
+    </task>
+    <task id="LOCAL-00047" summary=":seedling: 7/22 프로젝트 TIL 수정">
+      <option name="closed" value="true" />
+      <created>1722867457313</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1722867457313</updated>
+    </task>
+    <task id="LOCAL-00048" summary=":seedling: 7/22 게시글 수정, 7/23 게시글 생성">
+      <option name="closed" value="true" />
+      <created>1723520617349</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1723520617349</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,28 +550,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="date">
-                    <value>
-                      <list>
-                        <option value="1718969679086" />
-                        <option value="" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":fire: gitignore, img 추가" />
-    <MESSAGE value=":fire: gitignore" />
     <MESSAGE value=":fire: 이미지 추가" />
     <MESSAGE value="TIL 수정 및 이미지 추가" />
     <MESSAGE value="5/10, 6/21 TIL 수정" />
@@ -514,7 +578,22 @@
     <MESSAGE value=":seedling: 7/16 TIL 수정" />
     <MESSAGE value=":seedling: 7/15 TIL 수정" />
     <MESSAGE value=":seedling: 7/17 TIL 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value=":seedling: 7/17 TIL 수정" />
+    <MESSAGE value=":seedling: 7/18 TIL 작성" />
+    <MESSAGE value=":seedling: 7/22 프로젝트 TIL 작성" />
+    <MESSAGE value=":seedling: 7/22 프로젝트 TIL 수정" />
+    <MESSAGE value=":seedling: 7/22 게시글 수정, 7/23 게시글 생성" />
+    <option name="LAST_COMMIT_MESSAGE" value=":seedling: 7/22 게시글 수정, 7/23 게시글 생성" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
